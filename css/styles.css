@@ -293,6 +293,7 @@ ul li a .fa{
     float: right;
     margin-bottom: 223px;
     margin-left: 32%;
+    position: static;
 }
 
 /*Dark Mode*/
