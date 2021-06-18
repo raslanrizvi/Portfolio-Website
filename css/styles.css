@@ -33,9 +33,9 @@ body{
 }
 .dropdown-navbar-content {
 	  
-	
+	  position: absolute;
 	  background-color: rgba(48,178,132,0.88);
-	
+	  min-width: 50px;
 	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	  z-index: 1;
 	  display: none;
