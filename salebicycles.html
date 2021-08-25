@@ -1,0 +1,443 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Crown Bicycle</title>
+
+    <!-- 3 javascript files u need to attach -->
+     <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js">
+    </script>
+     <script type="text/javascript" src="js/popper.min.js">
+    </script>
+    <script type="text/javascript" src="js/bootstrap.js">
+    </script>
+
+
+    <!-- attach the bootstrap.css -->
+    <!-- bootstrap files-->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/Styles.css">
+
+  </head>
+  <body>
+
+      <div class="container-md">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+
+          <!-- Nav Bar Start -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <a class="navbar-brand" href="index.html"> <img src="images/CrownBicycleShopTPlogo.png" width="40px" margin-buttom="100px" alt=""> Crown Bicycle Shop </a>
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link  " href="index.html"> Home <span class="sr-only">(current)</span></a>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-danger navselect" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sale Bicycles
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Bicycles
+                        </a>
+
+                        <!-- <a class="dropdown-item" href="#">All Bicycles</a> -->
+
+                          <div class="dropdown-menu bikedrop" aria-labelledby="navbarDropdown">
+
+                                <a class="dropdown-item text-info" href="mountainbicycles.html">Mountain Bicycles</a>
+                                <a class="dropdown-item text-info" href="roadbicycles.html">Road Bicycles</a>
+                                <a class="dropdown-item text-info" href="activebicycles.html">Active Bicycles</a>
+                                <a class="dropdown-item text-info" href="#">Kids Bicycles</a>
+
+                          </div>
+
+
+                        <a class="dropdown-item text-danger navselect" href="salebicycles.html">Sale Bicycles</a>
+
+                        <a class="dropdown-item" href="allbicycles.html">All Bicycles</a>
+                      </div>
+                    </li>
+
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                  </li>
+
+                    <!-- <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+
+                  </ul>
+                   <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form> -->
+                  <!-- User Login Button -->
+                  <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="singin.html"><img src="images/person-circle.svg" class="" width="25px" margin-buttom="100px" alt=""></a>
+                    </li>
+                  </ul>
+                  <!-- Cart Button -->
+                  <ul class="nav justify-content-end ">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="checkout.html"><img src="images/cart-check.svg" width="25px" margin-buttom="100px" alt=""></a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+          <!-- NAv Bar Ends -->
+
+              <!-- Highlighs Scroll Start -->
+              <div class="position-relative">
+
+                <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-fluid" src="images/Banner/KidsBanner/BannerKids1.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="images/Banner/KidsBanner/BannerKids2.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="images/Banner/KidsBanner/BannerKids3.png">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+
+                </div>
+              </div>
+
+              <!-- Highlighs Scroll End -->
+
+
+
+                  <br>
+                  <br>
+                  <div class="FeaturedProducts">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-danger">
+                      <li class="breadcrumb-item active text-white rounded" aria-current="page"><img id="bikesvg" src="images/bicycle.svg" width="45" fill="dark" >   Kids Bicycles</li>
+                    </ol>
+                  </nav>
+                  </div>
+            </div> <!-- Div for col finishes here -->
+
+                <!-- Cards Start here -->
+            <div class="row">
+
+              <div class="col-lg-4 col-md-5">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/FeaturedProducts/FProductTurboComo.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title text-dark">Turbo Como</h5>
+                      <div class="Cost">
+                      <span>RS. 94,000.00</span>
+                    </div>
+                    <div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 84,000.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Mountain/MountainEpicEvo.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Epic Evo</h5>
+                      <div class="Cost">
+                      <span><del>RS. 60,000.00</del></span>
+                      </div>
+                        <div class="Sale">
+                            <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 55,000.00</span>
+                        </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+
+              <div class="col-lg-4 col-md-5">
+               <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Mountain/TrailSWEnduro.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">S-Works Enduro</h5>
+                      <div class="Cost">
+                      <span><del>RS. 73,900.00</del></span>
+                    </div>
+                    <div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 60,000.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-5">
+               <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Mountain/TrailSJEvoExpert.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Stumpjumpper Evo Expert</h5>
+                      <div class="Cost">
+                      <span><del>RS. 20,000.00</del></span>
+                    </div>
+                    <div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 18,990.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Road/RoadAethosExpert.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title text-dark">Aethos Expert</h5>
+                      <div class="Cost">
+                      <span><del>RS. 30,000.00</del></span>
+                    </div>
+                      <div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 28,990.00</span>
+                      </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Road/RoadAllezSprintComp.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title text-dark">Allez Sprint Comp</h5>
+                      <div class="Cost">
+                      <span><del>RS. 45,000.00</del></span>
+                    </div>
+                    <div class="Sale">
+                      <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 40,990.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Road/RoadDivergeCompE5.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Diverge Comp E5 Evo</h5>
+                      <div class="Cost">
+                      <span><del>RS. 28,000.00</del></span>
+                    </div>
+                    <div class="Sale">
+                      <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 20,000.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Road/RoadSWSpeenOfLight.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">S-Works Speed Of Light Edition</h5>
+                      <div class="Cost">
+                      <span><del>RS. 96,999.00</del></span>
+                      </div>
+                        <div class="Sale">
+                          <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 86,999.00</span>
+                        </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Active/ActiveSirrus.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Sirrus</h5>
+                      <div class="Cost">
+                      <span><del>RS. 43,999.00</del></span>
+                    </div>
+                    <div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 40,000.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Active/ActiveTurboComo.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Turbo Como</h5>
+                      <div class="Cost">
+                      <span><del>RS. 94,000.00</del></span>
+                    </div><div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 84,000.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Kids/KidsRiprock20.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Riprock Size-20</h5>
+                      <div class="Cost">
+                      <span><del>RS. 12,999.00</del></span>
+                    </div>
+                    <div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 9,999.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+
+
+
+              <div class="col-lg-4 col-md-5">
+                <div class=" text-center">
+                <div class="card rounded-lg border-info mb-3 shadow"  style="width: 18rem;">
+                  <div class="inner">
+                    <img src="images/Products/Kids/KidsRiprockCoaster20.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Riprock Coaster Size-20</h5>
+                      <div class="Cost">
+                      <span><del>RS. 13,990.00</del></span>
+                    </div><div class="Sale">
+                        <span class="text-danger "><img src="images/Sale1.svg" alt="" width="30px"> RS. 12,990.00</span>
+                    </div>
+                      <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                 </div>
+               </div>
+              </div>
+            </div>
+
+            </div>
+               <!-- Cards Ends Here -->
+
+
+
+
+
+      <footer>
+
+   		<div class="clearfix">
+   		<div class="copyright">
+   			<p>&copy; Copyright 2021   |   Crown Bicycle Shop   |   All Rights Reserved</p>
+   		</div>
+
+   		<div class="sociallink">
+   			<a href="https://www.facebook.com/Raslan.Rizvi.Photography">Facebook</a>
+   			<a href="https://www.instagram.com/raslan.rizvi/">Instagram</a>
+   			<a href="https://twitter.com/raslanrizvi">Twitter</a>
+   			<a href="https://lk.linkedin.com/in/raslan-rizvi-2779ba197">Linkedin</a>
+   			<a href="https://www.youtube.com/channel/UCZdN4lbvb2LAY7HYejjqWcg">Youtube</a>
+   		</div>
+   		</div>
+
+
+   		</footer>
+
+    </div>
+  </div>
+  </body>
+</html>
